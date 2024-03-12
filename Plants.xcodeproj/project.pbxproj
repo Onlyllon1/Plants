@@ -22,7 +22,7 @@
 		3CDF4B522BA05EF300E7E923 /* ProfileOptionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF4B512BA05EF300E7E923 /* ProfileOptionRowView.swift */; };
 		3CDF4B552BA06BBD00E7E923 /* WishlistsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF4B542BA06BBD00E7E923 /* WishlistsView.swift */; };
 		3CDF4B572BA06D1D00E7E923 /* LogInButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF4B562BA06D1D00E7E923 /* LogInButtonView.swift */; };
-		3CDF4B5A2BA06DE000E7E923 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF4B592BA06DE000E7E923 /* SwiftUIView.swift */; };
+		3CDF4B5C2BA06EBC00E7E923 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDF4B5B2BA06EBC00E7E923 /* MainTabView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,7 +42,7 @@
 		3CDF4B512BA05EF300E7E923 /* ProfileOptionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileOptionRowView.swift; sourceTree = "<group>"; };
 		3CDF4B542BA06BBD00E7E923 /* WishlistsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistsView.swift; sourceTree = "<group>"; };
 		3CDF4B562BA06D1D00E7E923 /* LogInButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInButtonView.swift; sourceTree = "<group>"; };
-		3CDF4B592BA06DE000E7E923 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3CDF4B5B2BA06EBC00E7E923 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,7 +146,7 @@
 		3CDF4B582BA06DD100E7E923 /* TabBar */ = {
 			isa = PBXGroup;
 			children = (
-				3CDF4B592BA06DE000E7E923 /* SwiftUIView.swift */,
+				3CDF4B5B2BA06EBC00E7E923 /* MainTabView.swift */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -229,10 +229,10 @@
 				3CDF4B302B98881D00E7E923 /* ContentView.swift in Sources */,
 				3CDF4B3D2B9888E200E7E923 /* ExploreView.swift in Sources */,
 				3CDF4B422B98915500E7E923 /* SearchAndFilterBar.swift in Sources */,
-				3CDF4B5A2BA06DE000E7E923 /* SwiftUIView.swift in Sources */,
 				3CDF4B4B2B9B372C00E7E923 /* DestinationSearchView.swift in Sources */,
 				3CDF4B442B989E4A00E7E923 /* ListingDetailView.swift in Sources */,
 				3CDF4B572BA06D1D00E7E923 /* LogInButtonView.swift in Sources */,
+				3CDF4B5C2BA06EBC00E7E923 /* MainTabView.swift in Sources */,
 				3CDF4B492B98A08900E7E923 /* ReviewStarAndVoteView.swift in Sources */,
 				3CDF4B2E2B98881D00E7E923 /* PlantsApp.swift in Sources */,
 			);
