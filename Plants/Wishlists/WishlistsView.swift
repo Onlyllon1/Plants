@@ -9,7 +9,23 @@ import SwiftUI
 
 struct WishlistsView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationStack {
+            VStack(alignment: .leading, spacing: 32) {
+             
+                VStack(alignment: .leading, spacing: 4) {
+                    Text("Log in to your wishlists")
+                        .font(.headline)
+                    
+                    Text("You can crete, view or edit wishlists once you,ve logged in")
+                        .font(.footnote)
+                }
+                LogInButtonView()
+                
+                Spacer()
+            }
+            .padding()
+            .navigationTitle("Wishlists")
+        }
     }
 }
 
