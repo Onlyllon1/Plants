@@ -1,5 +1,5 @@
 //
-//  SwiftUIView.swift
+//  MainTabView.swift
 //  Plants
 //
 //  Created by Francesco on 12/03/24.
@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct SwiftUIView: View {
+struct MainTabView: View {
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
 #Preview {
-    SwiftUIView()
+    MainTabView()
 }
